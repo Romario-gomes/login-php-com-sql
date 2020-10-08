@@ -2,7 +2,7 @@
 session_start();
 include ('config/conexao.php');
 
-    if(empty ($_POST['usuario-login']) || empty($_POST['senha-login'])){
+    if(isset($_POST['usuario-login']) || isset($_POST['senha-login'])){
         header('Location: Index.php');
         exit();
     }

@@ -1,0 +1,30 @@
+@charset "UFT-8";
+:root{
+    --color-menu-white: #ddd;
+    --color-menu-active: #555;
+
+}
+html,
+body{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    width: 90vw;
+    height: 80px;
+    max-width: 1024px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}

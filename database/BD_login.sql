@@ -4,11 +4,11 @@ CREATE DATABASE BD_login;
 USE BD_login;
 /* CRIANDO TABELA DO CADASTRO */
 CREATE TABLE TB_cadastro (
-    nome varchar(255),
-    sobrenome varchar(255),
-    usuario varchar(255),
-    email varchar(255),
-    senha varchar(255),
+    nome varchar(32),
+    sobrenome varchar(64),
+    usuario varchar(32),
+    email varchar(64),
+    senha varchar(32),
     data_cadastro date
 )ENGINE = innoDB; 
 
