@@ -23,8 +23,3 @@ h1{
     height: 80px;
     max-width: 1024px;
 }
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-}

@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+
+.image img{
+    display:flex;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.container .header-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+  
+}
+ .container .header-menu ul li{
+    padding: 0 5px;
+}
+
+.box-login{
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    margin-left: 30vw;
+    max-width: 350px;
+    background-color: blue;
+}
